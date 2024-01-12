@@ -35,7 +35,6 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="laptop-image"
-                style={{ maxHeight: "450px" }}
               />
             </Col>
           </Row>
