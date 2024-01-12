@@ -285,8 +285,13 @@ button:focus {
       calc(0.5 * var(--s)) 0 / calc(0 * var(--s)) var(--s);
 }
 
-.laptop-image {
-  animation: slide-laptop 2s ease-in-out 1s;
+
+
+@media (max-width: 767px) {
+  .laptop-image {
+    animation: slide-laptop 2s ease-in-out 1s;
+    max-height: 270px;
+  }
 }
 
 @keyframes slide-laptop {
