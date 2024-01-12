@@ -1,0 +1,62 @@
+{
+    "Home":"Home",
+    "About":"About",
+    "Projects":"Projects",
+    "Resume":"Resume",
+    
+    "Hi There!": "Hi There!",
+    "I'M":"I'M",
+    "FrontEnd Software Developer":"FrontEnd Software Developer",
+    "Mid Developer":"Mid Developer",
+    "Creative":"Creative",
+    "Proactive":"Proactive",
+
+    "Introduce1":"LET ME",
+    "Introduce1.2":"INTRODUCE",
+    "Introduce1.3":"MYSELF",
+    "Introduce2":"I transform lines of code into magical solutions.I'm a software wizard with 3 years of experience and counting! 🧙‍♂️",
+    "Introduce3":"I consider myself agile in...",
+    "Introduce4":"Javascript, Typescript, React, Vue and more... ",
+    "Introduce5":"My focus is clear: write code that not only works, but is maintainable and evolves over time.",
+    "Introduce6":"Software developer specialized in the implementation of effective technological solutions. My approach is to combine creativity with technical",
+    "Introduce7":"precision",
+
+    "FINDME":"FIND ME ON",
+    "FindText1":"Feel free to",
+    "FindText2":"connect",
+    "FindText3":"with me",
+
+    "KnowMe1":"Know Who",
+    "KnowMe2":"I'M",
+    "Skills1":"Professional",
+    "Skills2":"Skillset",
+    "Skills3":"Tools",
+    "Skills4":"I use",
+
+    "KnowText1":"I am a Front-End Developer with three years of hands-on experience. My professional journey has revolved around creating intuitive and user-friendly websites. I have a deep passion for web development and a constant thirst for learning. One of my key strengths lies in my ability to swiftly adapt to new challenges and seamlessly integrate into collaborative teams.",
+    "KnowText2":"Career Aspirations:",
+    "KnowText3":"Looking forward, my goal is to remain at the forefront of technological advancements in web development. This involves staying updated on emerging design paradigms and harnessing the capabilities of cutting-edge frameworks.",
+    "KnowText4":"Effective communication plays a pivotal role in aligning the client's vision with the final product. Leveraging my intermediate English skills and proficiency in technical-client communication, I am committed to enhancing my language abilities. My aspiration is to evolve into a bilingual developer capable of bridging the gap between technical and non-technical stakeholders seamlessly.",
+    "KnowText5":"I strongly believe in the power of teamwork and collaboration. I eagerly anticipate opportunities to mentor and work closely with fellow developers. This not only contributes to the growth of my colleagues but also enriches my understanding of diverse perspectives and approaches.",
+    "KnowText6":"My ultimate objective is to craft websites and web applications that leave a lasting positive impression on users. Whether it's enhancing sales on an e-commerce site or fostering connections on a community platform, I aim to create memorable and impactful user experiences.",
+    "KnowText7":"In summary, my journey as a Front-End Developer has been characterized by growth, adaptability, and unwavering enthusiasm. As I progress in my career, I am excited about embracing new challenges, expanding my horizons, and making a meaningful impact in the dynamic world of web development.",
+    "KnowText8":"Apart from coding, some other activities that I love to do!",
+
+    "Aspirations1":"Aspirations:",
+    "Aspirations2":"Playing Games",
+    "Aspirations3":"Do exercise",
+    "Aspirations4":"Travelling",
+
+    "phrase":"A good software developer works with discipline and perseverance from day one.!",
+    "phraseCreator":"Omar Bradley",
+
+    "project-title1":"My Recent",
+    "project-title2":"Works",
+    "project-subtitle":"Here are a few projects I've worked on recently.",
+    "quext-projext":"Website in charge of helping apartment owners and operators, in the sale or rental of their apartments. In it, the owners could create their own network and through widgets they could create a website with the information of their condominium, residence or apartment",
+    "bike-projext":"Bike to Work Day is a free, fun annual event focused on encouraging people to try out commuting by bike. The event typically takes place in-person the fourth Wednesday of every June. Bike to Work Day typically attracts tens of thousands of participants whose commitment helps communicate the desire and need for expanded and improved bike infrastructure in the Denver region.",
+    "ia-projext":"Integration of an AI for the tours and the reservation of the apartments and or condominiums that have the AI available through Quext.",
+    "geek-projext":"Geeklist is a social platform for developers to highlight their achievements,share resources and collaborate, your status can be sold as an NFT",
+
+    "download":"Download CV"
+}

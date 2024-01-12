@@ -1,0 +1,62 @@
+{
+    "Home":"Inicio",
+    "About":"Acerca",
+    "Projects":"Proyectos",
+    "Resume":"Curriculum",
+
+    "Hi There!": "Hola!",
+    "I'M":"SOY",
+    "FrontEnd Software Developer":"Desarrollador de Software Front End",
+    "Mid Developer":"Desarrollador Mid",
+    "Creative":"Creativo",
+    "Proactive":"Proactivo",
+
+    "Introduce1":"DEJAME",
+    "Introduce1.2":"PRESENTARTE UN POCO",
+    "Introduce1.3":"DE MI",
+    "Introduce2":"Transformo líneas de código en soluciones mágicas. Soy un mago del software con 3 años de experiencia y contando.! 🧙‍♂️",
+    "Introduce3":"Me considero agil en...",
+    "Introduce4":"Javascript, Typescript, React, Vue y mas... ",
+    "Introduce5":"Mi enfoque es claro: escribir código que no solo funcione, sino que sea mantenible y evolucione con el tiempo.",
+    "Introduce6":"Desarrollador de software especializado en la implementación de soluciones tecnológicas efectivas. Mi enfoque es combinar la creatividad con la precisión",
+    "Introduce7":"técnica.",
+
+    "FINDME":"SIGUEME",
+    "FindText1":"Sientete",
+    "FindText2":"libre",
+    "FindText3":"de contactarme",
+
+    "KnowMe1":"CONOCE",
+    "KnowMe2":"QUIEN SOY!",
+    "Skills1":"Habilidades",
+    "Skills2":"Profesionales",
+    "Skills3":"Herramientas",
+    "Skills4":"Que Uso",
+
+    "KnowText1":"Soy un Desarrollador Front-End con tres años de experiencia práctica. Mi trayectoria profesional ha girado en torno a la creación de sitios web intuitivos y amigables para el usuario. Tengo una profunda pasión por el desarrollo web y una sed constante de aprendizaje. Una de mis principales fortalezas radica en mi capacidad para adaptarme rápidamente a nuevos desafíos e integrarme sin problemas en equipos colaborativos.",
+    "KnowText2":"Aspiraciones Profesionales:",
+    "KnowText3":"Mirando hacia el futuro, mi objetivo es permanecer a la vanguardia de los avances tecnológicos en el desarrollo web. Esto implica mantenerme actualizado sobre paradigmas de diseño emergentes y aprovechar las capacidades de frameworks de última generación.",
+    "KnowText4":"La comunicación efectiva desempeña un papel fundamental para alinear la visión del cliente con el producto final. Aprovechando mis habilidades de inglés intermedio y mi proficiencia en la comunicación técnica con el cliente, estoy comprometido a mejorar mis habilidades lingüísticas. Aspiro a convertirme en un desarrollador bilingüe capaz de cerrar la brecha entre partes técnicas y no técnicas de manera fluida.",
+    "KnowText5":"Creo firmemente en el poder del trabajo en equipo y la colaboración. Espero con entusiasmo las oportunidades para orientar y trabajar estrechamente con otros desarrolladores. Esto no solo contribuye al crecimiento de mis colegas, sino que también enriquece mi comprensión de diversas perspectivas y enfoques.",
+    "KnowText6":"Mi objetivo final es crear sitios web y aplicaciones web que dejen una impresión positiva duradera en los usuarios. Ya sea mejorando las ventas en un sitio de comercio electrónico o fomentando conexiones en una plataforma comunitaria, mi objetivo es crear experiencias de usuario memorables e impactantes",
+    "KnowText7":"En resumen, mi trayectoria como Desarrollador Front-End se ha caracterizado por el crecimiento, la adaptabilidad y el entusiasmo inquebrantable. A medida que avanzo en mi carrera, estoy emocionado por enfrentar nuevos desafíos, ampliar mis horizontes y tener un impacto significativo en el dinámico mundo del desarrollo web",
+    "KnowText8":"Aparte de programar, ¡hay otras actividades que me encanta hacer!",
+
+    "Aspirations1":"Aspiraiones:",
+    "Aspirations2":"Jugar Video Juegos",
+    "Aspirations3":"Hacer Ejercicio",
+    "Aspirations4":"Viajar",
+
+    "phrase":"Un buen desarrollador de software trabaja con disciplina y perseverancia desde el primer día.!",
+    "phraseCreator":"Omar Bradley",
+
+    "project-title1":"Mi Reciente",
+    "project-title2":"Trabajo",
+    "project-subtitle":"Aquí hay algunos proyectos en los que he trabajado recientemente.",
+    "quext-project":"Sitio web encargado de ayudar a propietarios y operadores de apartamentos en la venta o alquiler de sus propiedades. En él, los propietarios pueden crear su propia red y, mediante widgets, pueden generar un sitio web con la información de su condominio, residencia o apartamento",
+    "bike-project":"Bike to Work Day es un evento anual gratuito y divertido enfocado en animar a las personas a probar desplazarse en bicicleta. El evento suele tener lugar en persona el cuarto miércoles de cada junio. Bike to Work Day atrae a decenas de miles de participantes cuyo compromiso ayuda a comunicar el deseo y la necesidad de una infraestructura para bicicletas más amplia y mejorada en la región de Denver.",
+    "ia-project":"Integración de una inteligencia artificial para recorridos y reservas de apartamentos y/o condominios que tienen la inteligencia artificial disponible a través de Quext.",
+    "geek-project":"Geeklist es una plataforma social para desarrolladores donde pueden destacar sus logros, compartir recursos y colaborar; incluso, su estatus puede ser vendido como un token no fungible (NFT).",
+
+    "download":"Descargar CV"
+}
