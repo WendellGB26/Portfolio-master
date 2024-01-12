@@ -935,6 +935,17 @@ button:focus {
   border-radius: 10px
 }
 
+@media (max-width: 767px) { 
+  .lenguage-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    min-width: 20vh;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
 .lenguage-btn {
   width: 165px;
   height: 62px;
