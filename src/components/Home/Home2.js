@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { Container, Row, Col } from "react-bootstrap";
 import Avatar from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
@@ -10,31 +11,30 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const { t } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              {t('Introduce1')}<span className="purple"> {t('Introduce1.2')} </span> {t('Introduce1.3')}
             </h1>
             <p className="home-about-body">
-            I transform lines of code into magical solutions.
-            I'm a software wizard with 3 years of experience and counting! 🧙‍♂️
+              {t('Introduce2')}
               <br />
               <br />
-                I consider myself agile in...
+                {t('Introduce3')}
               <i>
-                <b className="purple"> Javascript, Typescript, React, Vue and more... </b>
+                <b className="purple"> {t('Introduce4')}</b>
               </i>
               <br />
               <br />
-              My focus is clear: write code that not only works, but is maintainable and evolves 
-              over time.
+                {t('Introduce5')}
               <br />
               <br />
-              Software developer specialized in the implementation of effective technological solutions. 
-              My approach is to combine creativity with technical <b className="purple">precision</b> 
+              {t('Introduce6')} <b className="purple">{t('Introduce7')}</b> 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -45,9 +45,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>{t('FINDME')}</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+            {t('FindText1')} <span className="purple">{t('FindText2')} </span>{t('FindText3')}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
