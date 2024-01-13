@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import { i18n } from './i18n';
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -62,18 +64,20 @@ function App() {
           </div>
         </div>
       ): (
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
-          <Navbar />
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/project" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="*" element={<Navigate to="/"/>} />
-          </Routes>
-          <Footer />
-        </div>        
+        <SpeedInsights>
+          <div className="App" id={load ? "no-scroll" : "scroll"}>
+            <Navbar />
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/project" element={<Projects />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="*" element={<Navigate to="/"/>} />
+            </Routes>
+            <Footer />
+          </div>            
+        </SpeedInsights>
       )}
 
     </Router>
