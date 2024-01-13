@@ -28,7 +28,7 @@ function Projects() {
               imgPath={Quext}
               isBlog={false}
               title="QUEXT"
-              description={t('quext-project')}
+              description={t('quextProject')}
               demoLink="https://onequext.com/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={DigitalHuman}
               isBlog={false}
               title="Digital Human"
-              description={t('ia-project')}
+              description={t('iaProject')}
               demoLink="https://onequext.com/product/digital-human"
             />
           </Col>
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={BikeToWork}
               isBlog={false}
               title="Bike To Work Day"
-              description={t('bike-project')}
+              description={t('bikeProject')}
               demoLink="https://biketoworkday.co/"              
             />
           </Col>
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={GeekList}
               isBlog={false}
               title="Geek List"
-              description={t('geek-project')}
+              description={t('geekProject')}
               demoLink="https://geekli.st/waitlist"
             />
           </Col>
