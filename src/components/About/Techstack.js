@@ -5,10 +5,9 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
+  DiGithubBadge,
   DiGit,
-  DiJava,
+  DiLaravel,
 } from "react-icons/di";
 import {
   SiCss3,
@@ -17,7 +16,10 @@ import {
   SiPostgresql,
   SiVuedotjs,
   SiPhp,
-  SiDocker
+  SiDocker,
+  SiAngular,
+  SiNestjs,
+  SiMysql
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -46,19 +48,31 @@ function Techstack() {
         <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithubBadge />
       </Col>
     </Row>
   );
