@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { i18n } from '../i18n';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -6,6 +7,9 @@ import { useTranslation } from 'react-i18next';
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+
+import Spain from "../Assets/Spain.png";
+import Usa from "../Assets/Usa.jpeg";
 
 import {
   AiFillStar,
@@ -21,6 +25,8 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
+  const [language, setLanguage] = useState('en');
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -28,6 +34,11 @@ function NavBar() {
       updateNavbar(false);
     }
   }
+
+  const handleLanguageChange = (event) => {
+    setLanguage(event.target.value);
+    i18n.changeLanguage(event.target.value)
+  };
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -105,6 +116,18 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
+
+            <Nav.Item style={{ display: "flex" , flexWrap: "wrap", justifyContent: "center" ,  alignContent: "center" }}>
+              <select value={language} onChange={handleLanguageChange} className="select-container">
+                <option className="sp-option" value="es">
+                  SP
+                </option>
+                <option className="en-option" value="en">
+                  EN
+                </option>
+              </select>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
