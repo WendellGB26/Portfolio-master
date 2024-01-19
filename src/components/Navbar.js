@@ -106,18 +106,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/WendellGB26"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
-
-            <Nav.Item style={{ display: "flex" , flexWrap: "wrap", justifyContent: "center" ,  alignContent: "center" }}>
+            <Nav.Item style={{ display: "flex" , flexWrap: "wrap", justifyContent: "center" ,  alignContent: "center", }}>
               <select value={language} onChange={handleLanguageChange} className="select-container">
                 <option className="sp-option" value="es">
                   SP
@@ -128,6 +117,17 @@ function NavBar() {
               </select>
             </Nav.Item>
 
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com/WendellGB26"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
+              </Button>
+            </Nav.Item>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
