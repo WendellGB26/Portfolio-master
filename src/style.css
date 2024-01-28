@@ -994,17 +994,31 @@ button:focus {
   opacity: 0;
 }
 
-@media (max-width: 500px) {
+.cover-text h1 {
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
   .swiper_container {
     height: 47rem;
   }
   .swiper-slide {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 16rem !important;
+    height: 30rem !important;
   }
   .swiper-card {
     width: 28rem !important;
     height: 36rem !important;
+  }
+  .cover-text h1 {
+    font-size: 0.8em;
+    padding: 10px;
+    text-align: left;
+  }
+  .cover-tag h1 {
+    font-size: 1em;
   }
 }
 
