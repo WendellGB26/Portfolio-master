@@ -10,6 +10,7 @@ import BethImage from '../../Assets/Beth.jpeg';
 import DagoImage from '../../Assets/Dago.jpeg';
 import KeallyImage from '../../Assets/Keally.jpeg';
 import OliverImage from '../../Assets/Oliver.jpeg';
+import Aaron from '../../Assets/Aaron.jpeg';
 
 import { useTranslation } from 'react-i18next';
 import { Container, Row, Col } from "react-bootstrap";
@@ -105,6 +106,15 @@ function ResumeNew() {
                     name= 'Dago Medina'
                     profesion= 'Full Stack Developer'
                     cover= {t('DagoText')}
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Card 
+                    image={Aaron}
+                    href='https://www.linkedin.com/in/aaron-z%C3%BA%C3%B1iga-b9270169/'
+                    name= 'Aaron Zuñiga'
+                    profesion= 'Project Manager professional'
+                    cover= {t('AaronText')}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
