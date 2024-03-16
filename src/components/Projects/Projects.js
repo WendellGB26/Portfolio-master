@@ -8,6 +8,8 @@ import BikeToWork from "../../Assets/Projects/bike-to-work.png";
 import DigitalHuman from "../../Assets/Projects/digital-human.png";
 import GeekList from "../../Assets/Projects/geek-list.png";
 import Quext from "../../Assets/Projects/quext-web.png";
+import Morpho from "../../Assets/Projects/morpho.png"
+import Starlight from "../../Assets/Projects/starlight.png"
 
 function Projects() {
   const { t } = useTranslation();
@@ -50,6 +52,26 @@ function Projects() {
               title="Bike To Work Day"
               description={t('bikeProject')}
               demoLink="https://biketoworkday.co/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Starlight}
+              isBlog={false}
+              title="Star Light Solutions"
+              description={t('starProject')}
+              demoLink="https://www.starlightsoftwaresolutions.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Morpho}
+              isBlog={false}
+              title="Morpho Web/App"
+              description={t('morphoProject')}
+              demoLink="https://games.crossfit.com/affiliate/9741"
             />
           </Col>
 
