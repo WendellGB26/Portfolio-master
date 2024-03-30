@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import ReactGA from 'react-ga';
 import { i18n } from './i18n';
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -19,7 +19,13 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+function initializeReactGA() {
+  ReactGA.initialize('G-EF4YVKV12D'); // Reemplaza con tu ID de seguimiento
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
 function App() {
+  initializeReactGA();
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
